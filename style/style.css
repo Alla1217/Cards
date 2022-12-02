@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic&display=swap);
+
+.title{
+  text-align: left;
+  margin: 15px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 700px;
+  line-height: 139%;
+  margin-bottom: 12px;
+  color: #000000;
+}
+ 
+.flex-box-wrapper {
+  display: flex;
+  flex-direction: row;
+ }
+
+.flex-block {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-btn {
+  font-weight: 600px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #FB8F1D;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.flex-block h3 {
+  bottom: 16px;
+  font-size: 19px;
+  font-weight: 700px;
+  line-height: 158%;
+  text-align: left;
+  color: #000000;
+}
+.flex-block p {
+  font-weight: 400px;
+  font-size: 15px;
+  line-height:173%;
+  color: #7D7987;
+  flex-grow: 1;
+}
+.pictures {
+  width: 284px;
+  height: 330px;
+  border-radius: 8px 8px 0 0;
+}
